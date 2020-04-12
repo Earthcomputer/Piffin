@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "piffin",
+  "version": "${version}",
+  "name": "Piffin",
+  "description": "Pack dIFF INspector. Dumps data about the game for easy modpack inspection and listening for interesting changes between Minecraft versions.",
+  "authors": [
+    "Earthcomputer"
+  ],
+  "contact": {
+    "sources": "https://github.com/Earthcomputer/Piffin"
+  },
+  "license": "MIT",
+  "icon": "assets/piffin/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "piffin:dumper": [
+      "net.earthcomputer.piffin.dumper.ModListDumper"
+    ]
+  },
+  "mixins": [
+    "piffin.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.8.2+build.194",
+    "minecraft": "1.16-alpha.20.15.a"
+  }
+}

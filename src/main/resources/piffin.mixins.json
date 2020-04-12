@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "net.earthcomputer.piffin.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SplashScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
